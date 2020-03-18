@@ -68,8 +68,7 @@ Goodfellow
 
 1. [Shotton, Jamie, Ross Girshick, Andrew Fitzgibbon, Toby Sharp, Mat Cook, Mark Finocchio, Richard Moore et al. "Efficient human pose estimation from single depth images." IEEE transactions on pattern analysis and machine intelligence 35, no. 12 (2012): 2821-2840.](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/main-39.pdf)
 
-2. [Tompson, Jonathan, Ross Goroshin, Arjun Jain, Yann LeCun, and Christoph Bregler. "Efficient object localization using convolutional networks." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 648-656. 2015.]
-(https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Tompson_Efficient_Object_Localization_2015_CVPR_paper.pdf)
+2. [Tompson, Jonathan, Ross Goroshin, Arjun Jain, Yann LeCun, and Christoph Bregler. "Efficient object localization using convolutional networks." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 648-656. 2015.](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Tompson_Efficient_Object_Localization_2015_CVPR_paper.pdf)
 
 3. [Ramakrishna, Varun, Daniel Munoz, Martial Hebert, James Andrew Bagnell, and Yaser Sheikh. "Pose machines: Articulated pose estimation via inference machines." In European Conference on Computer Vision, pp. 33-47. Springer, Cham, 2014.](https://kilthub.cmu.edu/articles/Pose_Machines_Articulated_Pose_Estimation_via_Inference_Machines/6558671/files/12040949.pdf)
 
