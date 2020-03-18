@@ -66,6 +66,17 @@ Goodfellow
 
 ## Лекция 4. Нейросетевые методы поиска особых точек OpenPose
 
+1. [Shotton, Jamie, Ross Girshick, Andrew Fitzgibbon, Toby Sharp, Mat Cook, Mark Finocchio, Richard Moore et al. "Efficient human pose estimation from single depth images." IEEE transactions on pattern analysis and machine intelligence 35, no. 12 (2012): 2821-2840.](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/main-39.pdf)
+
+2. [Tompson, Jonathan, Ross Goroshin, Arjun Jain, Yann LeCun, and Christoph Bregler. "Efficient object localization using convolutional networks." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 648-656. 2015.]
+(https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Tompson_Efficient_Object_Localization_2015_CVPR_paper.pdf)
+
+3. [Ramakrishna, Varun, Daniel Munoz, Martial Hebert, James Andrew Bagnell, and Yaser Sheikh. "Pose machines: Articulated pose estimation via inference machines." In European Conference on Computer Vision, pp. 33-47. Springer, Cham, 2014.](https://kilthub.cmu.edu/articles/Pose_Machines_Articulated_Pose_Estimation_via_Inference_Machines/6558671/files/12040949.pdf)
+
+4. [Cao, Zhe, Gines Hidalgo, Tomas Simon, Shih-En Wei, and Yaser Sheikh. "OpenPose: realtime multi-person 2D pose estimation using Part Affinity Fields." arXiv preprint arXiv:1812.08008 (2018).](https://arxiv.org/pdf/1812.08008.pdf)
+
+5. [Sun, Ke, Bin Xiao, Dong Liu, and Jingdong Wang. "Deep high-resolution representation learning for human pose estimation." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 5693-5703. 2019.](https://github.com/microsoft/human-pose-estimation.pytorch)
+
 ## Лекция 5. GANs
 
 ## Лекция 6. Способы подготовки данных для обучения нейронных сетей
