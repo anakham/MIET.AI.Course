@@ -102,6 +102,27 @@ Goodfellow
 
 ## Лекция 6. Способы подготовки данных для обучения нейронных сетей
 
+1. Доверительный интервал для оценки достоверности классификации
+2. Оценки объёмов тестирующих выборок
+3. Источники данных
+4. Платформы mturk, toloka
+5. Симуляционные данные
+6. Трюки при обучении (pseudo-labeling, аугментация)
+
+Источники:
+
+https://ru.coursera.org/lecture/stats-for-data-analysis/dovieritiel-nyie-intiervaly-s-pomoshch-iu-kvantiliei-yboDc 
+
+https://sebastianraschka.com/blog/2018/model-evaluation-selection-part4.html
+
+https://www.mturk.com
+
+https://toloka.yandex.ru/tasks
+
+https://github.com/immersive-limit/Unity-ComputerVisionSim
+
+
+
 ## Лекция 7. Методы ускорения нейросетевых вычислений
 
 ## Лекция 8. Классические методы компьютерного зрения: вычитание фона
