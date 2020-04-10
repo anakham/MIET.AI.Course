@@ -125,6 +125,15 @@ https://github.com/immersive-limit/Unity-ComputerVisionSim
 
 ## Лекция 7. Методы ускорения нейросетевых вычислений
 
+1. [Пример кода с использованием SIMD-инструкций](https://gist.github.com/vermorel/7ad35212df44f3a79bca8ab5fe8e7622#file-fast_convolve_1d-cpp-L123)
+2. [Библиотека Openvino](https://software.intel.com/en-us/openvino-toolkit/choose-download)
+3. [Howard, Andrew G., Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, and Hartwig Adam. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).](https://arxiv.org/pdf/1704.04861.pdf)
+4. [Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen. "Mobilenetv2: Inverted residuals and linear bottlenecks." In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 4510-4520. 2018.](https://arxiv.org/pdf/1801.04381.pdf)
+5. [Courbariaux, Matthieu, Itay Hubara, Daniel Soudry, Ran El-Yaniv, and Yoshua Bengio. "Binarized neural networks: Training deep neural networks with weights and activations constrained to+ 1 or-1." arXiv preprint arXiv:1602.02830(2016).](https://arxiv.org/pdf/1602.02830)
+6. [Rastegari, Mohammad, Vicente Ordonez, Joseph Redmon, and Ali Farhadi. "Xnor-net: Imagenet classification using binary convolutional neural networks." In European conference on computer vision, pp. 525-542. Springer, Cham, 2016.](https://arxiv.org/pdf/1603.05279.pdf)
+7. [BMXNet: An Open-Source Binary Neural Network Implementation Based on MXNet](https://github.com/hpi-xnor/BMXNet)
+
+
 ## Лекция 8. Классические методы компьютерного зрения: вычитание фона
 
 ## Лекция 9. Классические методы компьютерного зрения: вычисление точек особенностей. Усиление метода нейронными сетями
