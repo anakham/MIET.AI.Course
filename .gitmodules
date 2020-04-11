@@ -1,0 +1,3 @@
+[submodule "Лекция 7/pytorch-ssd"]
+	path = Лекция 7/pytorch-ssd
+	url = https://github.com/qfgaohao/pytorch-ssd
