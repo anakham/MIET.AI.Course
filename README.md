@@ -134,6 +134,22 @@ https://github.com/immersive-limit/Unity-ComputerVisionSim
 
 ## Лекция 8. Классические методы компьютерного зрения: вычитание фона
 
+1. [Collins, Robert T., Alan J. Lipton, Takeo Kanade, Hironobu Fujiyoshi, David Duggins, Yanghai Tsin, David Tolliver et al. "A system for video surveillance and monitoring." VSAM final report 2000 (2000): 1-68.] (http://ri.cmu.edu/pub_files/pub2/collins_robert_2000_1/collins_robert_2000_1.pdf)
+
+2. [Stauffer, Chris, and W. Eric L. Grimson. "Adaptive background mixture models for real-time tracking." In Proceedings. 1999 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (Cat. No PR00149), vol. 2, pp. 246-252. IEEE, 1999.](http://mesh.brown.edu/en193s05-2004/pdfs/StaufferGrimson-cvpr98.pdf)
+
+3. [Goyette, Nil, Pierre-Marc Jodoin, Fatih Porikli, Janusz Konrad, and Prakash Ishwar. "Changedetection. net: A new change detection benchmark dataset." In 2012 IEEE computer society conference on computer vision and pattern recognition workshops, pp. 1-8. IEEE, 2012.](https://www.merl.com/publications/docs/TR2012-044.pdf)
+
+4. [Van Droogenbroeck, Marc, and Olivier Paquot. "Background subtraction: Experiments and improvements for ViBe." In 2012 IEEE computer society conference on computer vision and pattern recognition workshops, pp. 32-37. IEEE, 2012.](https://www.researchgate.net/profile/Marc_Droogenbroeck/publication/252067585_Background_Subtraction_Experiments_and_Improvements_for_ViBe/links/553a5bce0cf29b5ee4b626d0/Background-Subtraction-Experiments-and-Improvements-for-ViBe.pdf)
+
+5. [Hofmann, Martin, Philipp Tiefenbacher, and Gerhard Rigoll. "Background segmentation with feedback: The pixel-based adaptive segmenter." In 2012 IEEE computer society conference on computer vision and pattern recognition workshops, pp. 38-43. IEEE, 2012.](https://mediatum.ub.tum.de/doc/1137859/file.pdf)
+
+6. [Wang, Rui, Filiz Bunyak, Guna Seetharaman, and Kannappan Palaniappan. "Static and moving object detection using flux tensor with split gaussian models." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops, pp. 414-418. 2014.](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W12/papers/Wang_Static_and_Moving_2014_CVPR_paper.pdf)
+
+7. [Lim, Long Ang, and Hacer Yalim Keles. "Learning multi-scale features for foreground segmentation." Pattern Analysis and Applications (2019): 1-12.](https://arxiv.org/pdf/1808.01477)
+
+8. [Я.Я. Петричкович, А.В. Хамухин. Анализ влияния метода вычитания фона на конечную эффективность систем компьютерного зрения.](https://github.com/anakham/MIET.AI.Course/blob/master/Лекция%208/impact_of_bg_substraction.pdf)
+
 ## Лекция 9. Классические методы компьютерного зрения: вычисление точек особенностей. Усиление метода нейронными сетями
 
 ## Лекция 10. Обобщённые дескрипторы изображений, tripletloss.
