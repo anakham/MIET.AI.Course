@@ -134,7 +134,7 @@ https://github.com/immersive-limit/Unity-ComputerVisionSim
 
 ## Лекция 8. Классические методы компьютерного зрения: вычитание фона
 
-1. [Collins, Robert T., Alan J. Lipton, Takeo Kanade, Hironobu Fujiyoshi, David Duggins, Yanghai Tsin, David Tolliver et al. "A system for video surveillance and monitoring." VSAM final report 2000 (2000): 1-68.] (http://ri.cmu.edu/pub_files/pub2/collins_robert_2000_1/collins_robert_2000_1.pdf)
+1. [Collins, Robert T., Alan J. Lipton, Takeo Kanade, Hironobu Fujiyoshi, David Duggins, Yanghai Tsin, David Tolliver et al. "A system for video surveillance and monitoring." VSAM final report 2000 (2000): 1-68.](http://ri.cmu.edu/pub_files/pub2/collins_robert_2000_1/collins_robert_2000_1.pdf)
 
 2. [Stauffer, Chris, and W. Eric L. Grimson. "Adaptive background mixture models for real-time tracking." In Proceedings. 1999 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (Cat. No PR00149), vol. 2, pp. 246-252. IEEE, 1999.](http://mesh.brown.edu/en193s05-2004/pdfs/StaufferGrimson-cvpr98.pdf)
 
