@@ -152,6 +152,26 @@ https://github.com/immersive-limit/Unity-ComputerVisionSim
 
 ## Лекция 9. Классические методы компьютерного зрения: вычисление точек особенностей. Усиление метода нейронными сетями
 
+1. [Harris, Christopher G., and Mike Stephens. "A combined corner and edge detector." Alvey vision conference. Vol. 15. No. 50. 1988.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.434.4816&rep=rep1&type=pdf)
+
+2. [Derpanis, Konstantinos G. "The harris corner detector." York University 2 (2004).](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.482.1724&rep=rep1&type=pdf)
+
+3. [Lowe, David G. "Distinctive image features from scale-invariant keypoints." International journal of computer vision 60.2 (2004): 91-110.](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.313.1996&rep=rep1&type=pdf)
+
+4. [Lindeberg, Tony. "Feature detection with automatic scale selection." International journal of computer vision 30.2 (1998): 79-116.](https://www.diva-portal.org/smash/get/diva2:453064/FULLTEXT01.pdf)
+
+5. [Rublee, Ethan, et al. "ORB: An efficient alternative to SIFT or SURF." 2011 International conference on computer vision. Ieee, 2011.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.4395&rep=rep1&type=pdf)
+
+6. [Rosten, Edward, and Tom Drummond. "Machine learning for high-speed corner detection." European conference on computer vision. Springer, Berlin, Heidelberg, 2006.](https://link.springer.com/content/pdf/10.1007/11744023_34.pdf)
+
+7. [Calonder, Michael, et al. "BRIEF: Computing a local binary descriptor very fast." IEEE transactions on pattern analysis and machine intelligence 34.7 (2011): 1281-1298.](https://infoscience.epfl.ch/record/167678/files/top.pdf)
+
+8. [DeTone, Daniel, Tomasz Malisiewicz, and Andrew Rabinovich. "Superpoint: Self-supervised interest point detection and description." Proceedings of the IEEE conference on computer vision and pattern recognition workshops. 2018.](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/DeTone_SuperPoint_Self-Supervised_Interest_CVPR_2018_paper.pdf)
+
+8. [Barroso-Laguna, Axel, et al. "Key. net: Keypoint detection by handcrafted and learned cnn filters." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Barroso-Laguna_Key.Net_Keypoint_Detection_by_Handcrafted_and_Learned_CNN_Filters_ICCV_2019_paper.pdf)
+
+
+
 ## Лекция 10. Обобщённые дескрипторы изображений, tripletloss.
 
 ## Лекция 11. Реккурентные нейронные сети в компьютерном зрении. GRU, LSTM, visual question answering
