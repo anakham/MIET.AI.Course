@@ -1,4 +1,5 @@
 .DS_Store
 .ipynb_checkpoints
-Лекция 1/Notebooks/predict_sales/
-students dataset.xlsx
+.idea/
+__pycache__/
+supplementary/

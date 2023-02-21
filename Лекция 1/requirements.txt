@@ -1,0 +1,6 @@
+scikit-learn
+pandas
+notebook
+openpyxl
+xgboost
+seaborn
