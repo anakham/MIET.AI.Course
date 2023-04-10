@@ -22,10 +22,22 @@ while True:
         break
 
     fgMask = backSub.apply(frame)
+    fgMask[fgMask < 200] = 0
 
     cv.rectangle(frame, (10, 2), (100, 20), (255, 255, 255), -1)
     cv.putText(frame, str(capture.get(cv.CAP_PROP_POS_FRAMES)), (15, 15),
                cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0))
+    
+    numLabels, labels, stats, centroids = cv.connectedComponentsWithStats(fgMask)
+    for i in range(numLabels):
+        x = stats[i, cv.CC_STAT_LEFT]
+        y = stats[i, cv.CC_STAT_TOP]
+        w = stats[i, cv.CC_STAT_WIDTH]
+        h = stats[i, cv.CC_STAT_HEIGHT]
+        area = stats[i, cv.CC_STAT_AREA]
+        if area > 20:
+            cv.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 3)
+
 
     cv.imshow('Frame', frame)
     cv.imshow('FG Mask', fgMask)
