@@ -1,0 +1,16 @@
+            max_cos_score = cos_score
+            max_l2_score = l2_score
+    if make_desicion(max_cos_score, max_l2_score):
+        return arg_max
+    else:
+        return ""
+    
+
+def scan_folder(face_folder : str, detector : cv.FaceDetectorYN, recognizer: cv.FaceRecognizerSF, scale) -> dict:
+    faces = dict()
+    face_dir_path = Path(face_folder)
+    for face_file in os.listdir(face_folder):
+        face_features = get_embedings_from_file( str((face_dir_path / face_file).resolve()) , detector, recognizer, scale)
+        if face_features is None:
+            continue
+        file_name = Path(face_file).stem

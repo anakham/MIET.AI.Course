@@ -1,0 +1,29 @@
+    recognizer = cv.FaceRecognizerSF.create(args.face_recognition_model,"")
+    
+    face_db = scan_folder(args.face_folder, detector, recognizer, args.scale)
+    
+
+    frameWidth = int(cap.get(cv.CAP_PROP_FRAME_WIDTH)*args.scale)
+    frameHeight = int(cap.get(cv.CAP_PROP_FRAME_HEIGHT)*args.scale)
+    detector.setInputSize([frameWidth, frameHeight])
+    while cv.waitKey(1) < 0:
+        hasFrame, frame = cap.read()
+        if not hasFrame:
+            print('No frames grabbed!')
+            break
+        frame = cv.resize(frame, (frameWidth, frameHeight))
+        # Inference
+        tm.start()
+        faces = detector.detect(frame) # faces is a tuple
+        face_ids = []
+        if faces[1] is not None:
+            for face in faces[1]:
+                face_feature = get_embedings(frame, detector, recognizer, args.scale, face)
+                face_ids.append(find_best_match(face_db, face_feature, recognizer))
+        tm.stop()
+        # Draw results on the input image
+        visualize(frame, faces, face_ids, tm.getFPS())
+        # Visualize results
+        cv.imshow('Live', frame)
+    
+    cv.destroyAllWindows()

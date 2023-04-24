@@ -1,0 +1,62 @@
+    l2_score = recognizer.match(face1_feature, face2_feature, cv.FaceRecognizerSF_FR_NORM_L2)
+
+    return (cosine_score, l2_score)
+
+
+def make_desicion(cosine_score, l2_score):
+    cosine_similarity_threshold = 0.363
+    l2_similarity_threshold = 1.128
+    msg = 'different identities'
+    match_result = False
+    if cosine_score >= cosine_similarity_threshold:
+        msg = 'the same identity'
+        match_result = True
+    print('They have {}. Cosine Similarity: {}, threshold: {} (higher value means higher similarity, max 1.0).'.format(msg, cosine_score, cosine_similarity_threshold))
+    msg = 'different identities'
+    if l2_score <= l2_similarity_threshold:
+        msg = 'the same identity'
+        match_result = True
+    print('They have {}. NormL2 Distance: {}, threshold: {} (lower value means higher similarity, min 0.0).'.format(msg, l2_score, l2_similarity_threshold))
+    return match_result
+
+
+
+def find_best_match(face_db : dict, face_feature : np.array, recongnizer : cv.FaceRecognizerSF):
+    max_cos_score = 0
+    max_l2_score = 1e20
+    arg_max = ""
+    for label, feature in face_db.items():
+        (cos_score, l2_score) = find_match_score(face_feature, feature, recognizer)
+        if cos_score > max_cos_score:
+            arg_max = label
+>
+        faces[file_name] = face_features
+
+    return faces
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--video', '-v', type=str, default='face_video.mkv', help='Path to the input video.')
+    parser.add_argument('--face_folder', '-fc', default='faces', type=str, help='Path to the folder with face dataset.')
+    parser.add_argument('--scale', '-sc', type=float, default=1.0, help='Scale factor used to resize input video frames.')
+    parser.add_argument('--face_detection_model', '-fd', type=str, default='face_detection_yunet_2022mar.onnx', help='Path to the face detection model. Download the model at https://github.com/opencv/opencv_zoo/tree/master/models/face_detection_yunet')
+    parser.add_argument('--face_recognition_model', '-fr', type=str, default='face_recognition_sface_2021dec.onnx', help='Path to the face recognition model. Download the model at https://github.com/opencv/opencv_zoo/tree/master/models/face_recognition_sface')
+    parser.add_argument('--score_threshold', type=float, default=0.95, help='Filtering out faces of score < score_threshold.')
+    parser.add_argument('--nms_threshold', type=float, default=0.3, help='Suppress bounding boxes of iou >= nms_threshold.')
+    parser.add_argument('--top_k', type=int, default=5000, help='Keep top_k bounding boxes before NMS.')
+
+    args = parser.parse_args()
+
+    cap = cv.VideoCapture(args.video)
+    #cap = cv.VideoCapture(0)
+    tm = cv.TickMeter()
+    
+    detector = cv.FaceDetectorYN.create(
+        args.face_detection_model,
+        "",
+        (320, 320),
+        args.score_threshold,
+        args.nms_threshold,
+        args.top_k
+    )

@@ -1,0 +1,12 @@
+    elif v.lower() in ['off', 'no', 'false', 'n', 'f']:
+        return False
+    else:
+        raise NotImplementedError
+    
+def visualize(input, faces, face_ids, fps, thickness=2):
+    if faces[1] is not None:
+        for idx, face in enumerate(faces[1]):
+            face_label = face_ids[idx]
+            print('Face {}, top-left coordinates: ({:.0f}, {:.0f}), box width: {:.0f}, box height {:.0f}, score: {:.2f}'.format(idx, face[0], face[1], face[2], face[3], face[-1]))
+            coords = face[:-1].astype(np.int32)
+            cv.rectangle(input, (coords[0], coords[1]), (coords[0]+coords[2], coords[1]+coords[3]), (0, 255, 0), thickness)

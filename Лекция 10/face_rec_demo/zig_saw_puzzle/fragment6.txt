@@ -1,0 +1,21 @@
+            return None
+        face = faces[1][0]
+    if face is None:
+        return None
+    face_align = recognizer.alignCrop(img, face)
+    #cv.imshow("debug", face_align)
+    face_feature = recognizer.feature(face_align)
+    return face_feature
+
+
+def get_embedings_from_file(face_file : str, detector : cv.FaceDetectorYN, recognizer : cv.FaceRecognizerSF, scale) ->np.array:
+    try:
+        img = cv.imread(face_file)
+        return get_embedings(img, detector, recognizer, scale)
+    except:    
+       return None
+
+
+def find_match_score(face1_feature, face2_feature, recognizer):
+        
+    cosine_score = recognizer.match(face1_feature, face2_feature, cv.FaceRecognizerSF_FR_COSINE)

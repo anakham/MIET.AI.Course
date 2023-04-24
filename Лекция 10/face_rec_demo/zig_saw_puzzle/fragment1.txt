@@ -1,0 +1,17 @@
+            cv.putText(input, face_label, (coords[0], coords[1] + coords[3]+24), cv.FONT_HERSHEY_SIMPLEX, 1.0, (0, 0, 255), 2)
+            cv.circle(input, (coords[4], coords[5]), 2, (255, 0, 0), thickness)
+            cv.circle(input, (coords[6], coords[7]), 2, (0, 0, 255), thickness)
+            cv.circle(input, (coords[8], coords[9]), 2, (0, 255, 0), thickness)
+            cv.circle(input, (coords[10], coords[11]), 2, (255, 0, 255), thickness)
+            cv.circle(input, (coords[12], coords[13]), 2, (0, 255, 255), thickness)
+    cv.putText(input, 'FPS: {:.2f}'.format(fps), (1, 24), cv.FONT_HERSHEY_SIMPLEX, 1.0, (255, 0, 0), 2)
+
+
+def get_embedings(img : np.array, detector : cv.FaceDetectorYN, recognizer : cv.FaceRecognizerSF, scale, face_pose = None) ->np.array:
+    face = face_pose
+    global face_cnt
+    if face_pose is None:
+        imgWidth = int(img.shape[1] * scale)
+        imgHeight = int(img.shape[0] * scale)
+        img = cv.resize(img, (imgWidth, imgHeight))
+        detector.setInputSize((imgWidth, imgHeight))
