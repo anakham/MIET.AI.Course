@@ -67,29 +67,19 @@ Goodfellow
 ## Лекция 4. Нейросетевые методы поиска особых точек OpenPose
 
 1. [Shotton, Jamie, Ross Girshick, Andrew Fitzgibbon, Toby Sharp, Mat Cook, Mark Finocchio, Richard Moore et al. "Efficient human pose estimation from single depth images." IEEE transactions on pattern analysis and machine intelligence 35, no. 12 (2012): 2821-2840.](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/main-39.pdf)
-
 2. [Tompson, Jonathan, Ross Goroshin, Arjun Jain, Yann LeCun, and Christoph Bregler. "Efficient object localization using convolutional networks." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 648-656. 2015.](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Tompson_Efficient_Object_Localization_2015_CVPR_paper.pdf)
-
 3. [Ramakrishna, Varun, Daniel Munoz, Martial Hebert, James Andrew Bagnell, and Yaser Sheikh. "Pose machines: Articulated pose estimation via inference machines." In European Conference on Computer Vision, pp. 33-47. Springer, Cham, 2014.](https://kilthub.cmu.edu/articles/Pose_Machines_Articulated_Pose_Estimation_via_Inference_Machines/6558671/files/12040949.pdf)
-
 4. [Cao, Zhe, Gines Hidalgo, Tomas Simon, Shih-En Wei, and Yaser Sheikh. "OpenPose: realtime multi-person 2D pose estimation using Part Affinity Fields." arXiv preprint arXiv:1812.08008 (2018).](https://arxiv.org/pdf/1812.08008.pdf)
-
 5. [Sun, Ke, Bin Xiao, Dong Liu, and Jingdong Wang. "Deep high-resolution representation learning for human pose estimation." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 5693-5703. 2019.](https://github.com/microsoft/human-pose-estimation.pytorch)
 
 ## Лекция 5. GANs
 
 1. [Gui, Jie, Zhenan Sun, Yonggang Wen, Dacheng Tao, and Jieping Ye. "A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications." arXiv preprint arXiv:2001.06937 (2020).](https://arxiv.org/pdf/2001.06937.pdf)
-
 2. [Kingma, Diederik P., and Max Welling. "Auto-encoding variational bayes." arXiv preprint arXiv:1312.6114 (2013).](https://arxiv.org/pdf/1312.6114.pdf)
-
 3. [Pu, Yunchen, Zhe Gan, Ricardo Henao, Xin Yuan, Chunyuan Li, Andrew Stevens, and Lawrence Carin. "Variational autoencoder for deep learning of images, labels and captions." In Advances in neural information processing systems, pp. 2352-2360. 2016.](http://papers.nips.cc/paper/6528-variational-autoencoder-for-deep-learning-of-images-labels-and-captions.pdf)
-
 4. [Makhzani, Alireza, Jonathon Shlens, Navdeep Jaitly, Ian Goodfellow, and Brendan Frey. "Adversarial autoencoders." arXiv preprint arXiv:1511.05644 (2015).](https://arxiv.org/pdf/1511.05644.pdf)
-
 5. [Goodfellow, Ian, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. "Generative adversarial nets." In Advances in neural information processing systems, pp. 2672-2680. 2014.](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
-
 6. [Chen, Xi, Yan Duan, Rein Houthooft, John Schulman, Ilya Sutskever, and Pieter Abbeel. "Infogan: Interpretable representation learning by information maximizing generative adversarial nets." In Advances in neural information processing systems, pp. 2172-2180. 2016.](http://papers.nips.cc/paper/6399-infogan-interpretable-representation-learning-by-information-maximizing-generative-adversarial-nets.pdf)
-
 7. [Reed, Scott E., Zeynep Akata, Santosh Mohan, Samuel Tenka, Bernt Schiele, and Honglak Lee. "Learning what and where to draw." In Advances in neural information processing systems, pp. 217-225. 2016.](https://arxiv.org/pdf/1610.02454.pdf)
 
 
@@ -135,45 +125,76 @@ https://github.com/immersive-limit/Unity-ComputerVisionSim
 ## Лекция 8. Классические методы компьютерного зрения: вычитание фона
 
 1. [Collins, Robert T., Alan J. Lipton, Takeo Kanade, Hironobu Fujiyoshi, David Duggins, Yanghai Tsin, David Tolliver et al. "A system for video surveillance and monitoring." VSAM final report 2000 (2000): 1-68.](http://ri.cmu.edu/pub_files/pub2/collins_robert_2000_1/collins_robert_2000_1.pdf)
-
 2. [Stauffer, Chris, and W. Eric L. Grimson. "Adaptive background mixture models for real-time tracking." In Proceedings. 1999 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (Cat. No PR00149), vol. 2, pp. 246-252. IEEE, 1999.](http://mesh.brown.edu/en193s05-2004/pdfs/StaufferGrimson-cvpr98.pdf)
-
 3. [Goyette, Nil, Pierre-Marc Jodoin, Fatih Porikli, Janusz Konrad, and Prakash Ishwar. "Changedetection. net: A new change detection benchmark dataset." In 2012 IEEE computer society conference on computer vision and pattern recognition workshops, pp. 1-8. IEEE, 2012.](https://www.merl.com/publications/docs/TR2012-044.pdf)
-
 4. [Van Droogenbroeck, Marc, and Olivier Paquot. "Background subtraction: Experiments and improvements for ViBe." In 2012 IEEE computer society conference on computer vision and pattern recognition workshops, pp. 32-37. IEEE, 2012.](https://www.researchgate.net/profile/Marc_Droogenbroeck/publication/252067585_Background_Subtraction_Experiments_and_Improvements_for_ViBe/links/553a5bce0cf29b5ee4b626d0/Background-Subtraction-Experiments-and-Improvements-for-ViBe.pdf)
-
 5. [Hofmann, Martin, Philipp Tiefenbacher, and Gerhard Rigoll. "Background segmentation with feedback: The pixel-based adaptive segmenter." In 2012 IEEE computer society conference on computer vision and pattern recognition workshops, pp. 38-43. IEEE, 2012.](https://mediatum.ub.tum.de/doc/1137859/file.pdf)
-
 6. [Wang, Rui, Filiz Bunyak, Guna Seetharaman, and Kannappan Palaniappan. "Static and moving object detection using flux tensor with split gaussian models." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops, pp. 414-418. 2014.](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W12/papers/Wang_Static_and_Moving_2014_CVPR_paper.pdf)
-
 7. [Lim, Long Ang, and Hacer Yalim Keles. "Learning multi-scale features for foreground segmentation." Pattern Analysis and Applications (2019): 1-12.](https://arxiv.org/pdf/1808.01477)
-
 8. [Я.Я. Петричкович, А.В. Хамухин. Анализ влияния метода вычитания фона на конечную эффективность систем компьютерного зрения.](https://github.com/anakham/MIET.AI.Course/blob/master/Лекция%208/impact_of_bg_substraction.pdf)
 
 ## Лекция 9. Классические методы компьютерного зрения: вычисление точек особенностей. Усиление метода нейронными сетями
 
 1. [Harris, Christopher G., and Mike Stephens. "A combined corner and edge detector." Alvey vision conference. Vol. 15. No. 50. 1988.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.434.4816&rep=rep1&type=pdf)
-
 2. [Derpanis, Konstantinos G. "The harris corner detector." York University 2 (2004).](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.482.1724&rep=rep1&type=pdf)
-
 3. [Lowe, David G. "Distinctive image features from scale-invariant keypoints." International journal of computer vision 60.2 (2004): 91-110.](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.313.1996&rep=rep1&type=pdf)
-
 4. [Lindeberg, Tony. "Feature detection with automatic scale selection." International journal of computer vision 30.2 (1998): 79-116.](https://www.diva-portal.org/smash/get/diva2:453064/FULLTEXT01.pdf)
-
 5. [Rublee, Ethan, et al. "ORB: An efficient alternative to SIFT or SURF." 2011 International conference on computer vision. Ieee, 2011.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.4395&rep=rep1&type=pdf)
-
 6. [Rosten, Edward, and Tom Drummond. "Machine learning for high-speed corner detection." European conference on computer vision. Springer, Berlin, Heidelberg, 2006.](https://link.springer.com/content/pdf/10.1007/11744023_34.pdf)
-
 7. [Calonder, Michael, et al. "BRIEF: Computing a local binary descriptor very fast." IEEE transactions on pattern analysis and machine intelligence 34.7 (2011): 1281-1298.](https://infoscience.epfl.ch/record/167678/files/top.pdf)
-
 8. [DeTone, Daniel, Tomasz Malisiewicz, and Andrew Rabinovich. "Superpoint: Self-supervised interest point detection and description." Proceedings of the IEEE conference on computer vision and pattern recognition workshops. 2018.](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/DeTone_SuperPoint_Self-Supervised_Interest_CVPR_2018_paper.pdf)
-
 8. [Barroso-Laguna, Axel, et al. "Key. net: Keypoint detection by handcrafted and learned cnn filters." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Barroso-Laguna_Key.Net_Keypoint_Detection_by_Handcrafted_and_Learned_CNN_Filters_ICCV_2019_paper.pdf)
-
-
 
 ## Лекция 10. Обобщённые дескрипторы изображений, tripletloss.
 
+1. [Sun, Yi, et al\. "Deep learning face representation by joint identification\-verification\." Advances in neural information processing systems ](https://arxiv.org/pdf/1406.4773.pdf)
+2. [Xiong, Xuehan, and Fernando De la Torre\. "Supervised descent method and its applications to face alignment\." CVPR 2013\.](https://openaccess.thecvf.com/content_cvpr_2013/papers/Xiong_Supervised_Descent_Method_2013_CVPR_paper.pdf)
+3. [Taigman, Yaniv, et al\. "Deepface: Closing the gap to human\-level performance in face verification\." CVPR 2014\.](https://openaccess.thecvf.com/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf)
+4. [Schroff, Florian, Dmitry Kalenichenko, and James Philbin\. "Facenet: A unified embedding for face recognition and clustering\." Proceedings of the IEEE conference on computer vision and pattern recognition\. 2015\.](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf)
+5. [Kemelmacher\-Shlizerman, Ira, et al\. "The megaface benchmark: 1 million faces for recognition at scale\." CVPR 2016\.](https://openaccess.thecvf.com/content_cvpr_2016/papers/Kemelmacher-Shlizerman_The_MegaFace_Benchmark_CVPR_2016_paper.pdf)
+6. [Deng, Jiankang, et al\. "Arcface: Additive angular margin loss for deep face recognition\." CVPR 2019\.](https://openaccess.thecvf.com/content_CVPR_2019/papers/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.pdf)
+
+
+
 ## Лекция 11. Реккурентные нейронные сети в компьютерном зрении. GRU, LSTM, visual question answering
 
+1. [Hochreiter, Sepp, and Jürgen Schmidhuber\. "Long short\-term memory\." Neural computation 9\.8 \(1997\): 1735\-1780\.](https://didawiki.cli.di.unipi.it/lib/exe/fetch.php/magistraleinformatica/aa2/lstm.pdf)
+2. [Cho, Kyunghyun, et al\. "Learning phrase representations using RNN encoder\-decoder for statistical machine translation\.”](https://arxiv.org/pdf/1406.1078)
+3. [Coskun, Huseyin, et al\. "Long short\-term memory kalman filters: Recurrent neural estimators for pose regularization\." Proceedings of the IEEE International Conference on Computer Vision\. 2017\.](https://openaccess.thecvf.com/content_ICCV_2017/papers/Coskun_Long_Short-Term_Memory_ICCV_2017_paper.pdf)
+4. [Antol, Stanislaw, et al\. "Vqa: Visual question answering\." Proceedings of the IEEE international conference on computer vision\. 2015\. ](https://openaccess.thecvf.com/content_iccv_2015/papers/Antol_VQA_Visual_Question_ICCV_2015_paper.pdf)
+5. [Nilsson, David, and Cristian Sminchisescu\. "Semantic video segmentation by gated recurrent flow propagation\." Proceedings of the IEEE conference on computer vision and pattern recognition\. 2018\.](https://openaccess.thecvf.com/content_cvpr_2018/papers/Nilsson_Semantic_Video_Segmentation_CVPR_2018_paper.pdf)
+6. [Wang, Fangjinhua, et al\. "Itermvs: Iterative probability estimation for efficient multi\-view stereo\." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition\. 2022\.](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_IterMVS_Iterative_Probability_Estimation_for_Efficient_Multi-View_Stereo_CVPR_2022_paper.pdf)
+
 ## Лекция 12. Обучение с подкреплением
+
+1. Ричард С. Саттон, Эндрю Дж. Барто "Обучение с подкреплением. Введение", М., из-во "ДМК-пресс", 2020.
+2. [Библиотека Gymnasium.](https://gymnasium.farama.org/index.html)
+3. [Библиотека симуляции взаимодействия механизмов и окружающей среды MoJoCoj.](https://mujoco.readthedocs.io/en/stable/overview.html)
+4. [Билиотека симуляции дорожного движения для беспилотных автомобилей CARLA.](https://carla.org/)
+
+## Лекция 13. Attention and Transformers
+
+1. Пример токенизации через [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
+2. Word2Vec, CBOW, Skip-Gram: [Mikolov, Tomas, et al. "Efficient estimation of word representations in vector space." arXiv preprint arXiv:1301.3781 (2013).](https://arxiv.org/pdf/1301.3781)
+3. [GloVe](https://aclanthology.org/D14-1162.pdf)
+4. [Vaswani, Ashish, et al\. "Attention is all you need\." Advances in neural information processing systems 30 \(2017\)\.](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
+5. [BLEU (bilingual evaluation understudy](https://en.wikipedia.org/wiki/BLEU)
+6. [Dosovitskiy, Alexey\. "An image is worth 16x16 words: Transformers for image recognition at scale\." arXiv:2010\.11929 \(2020\)\.](https://bibbase.org/service/mendeley/bfbbf840-4c42-3914-a463-19024f50b30c/file/4de167e7-3087-5745-0375-4a73f60777b2/full_text.pdf.pdf)
+7. [Yuan, Li, et al\. "Tokens\-to\-token vit: Training vision transformers from scratch on imagenet\." IEEE CVPR\. 2021\.](https://openaccess.thecvf.com/content/ICCV2021/papers/Yuan_Tokens-to-Token_ViT_Training_Vision_Transformers_From_Scratch_on_ImageNet_ICCV_2021_paper.pdf)
+
+## Лекция 14. Stable Diffusion
+
+1. Сегментация U-Net: [Ronneberger, Olaf, Philipp Fischer, and Thomas Brox\. "U\-net: Convolutional networks for biomedical image segmentation\.”](http://arxiv.org/pdf/1505.04597)
+2. Математические понятия для stable diffusion: [Sohl\-Dickstein, Jascha, et al\. "Deep unsupervised learning using nonequilibrium thermodynamics\." International conference on machine learning\. pmlr, 2015\.](https://arxiv.org/pdf/1503.03585)
+3. Схема обучения: [Ho, Jonathan, Ajay Jain, and Pieter Abbeel\. "Denoising diffusion probabilistic models\." Advances in neural information processing systems 33 \(2020\): 6840\-6851\.](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf)
+4. [Esser, Patrick, Robin Rombach, and Bjorn Ommer\. "Taming transformers for high\-resolution image synthesis\." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition\. 2021\.](https://openaccess.thecvf.com/content/CVPR2021/papers/Esser_Taming_Transformers_for_High-Resolution_Image_Synthesis_CVPR_2021_paper.pdf)
+5. [Rombach, Robin, et al\. "High\-resolution image synthesis with latent diffusion models\." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition\. 2022\.](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf)
+6. [Zhang, Lvmin, Anyi Rao, and Maneesh Agrawala\. "Adding conditional control to text\-to\-image diffusion models\." Proceedings of the IEEE/CVF international conference on computer vision\. 2023\.](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)
+
+## Лекция 15. AlphaGo и EfficientNet
+
+1. [Алгоритм альфа-бета отсечений](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
+2. AlphaGo: [Silver, David, et al\. "Mastering the game of Go with deep neural networks and tree search\." nature 529\.7587 \(2016\): 484\-489\.](https://webdocs.cs.ualberta.ca/~hayward/355/masteringgameofgo.pdf)
+3. AlphaZero: [Silver, David, et al\. "Mastering the game of go without human knowledge\." nature 550\.7676 \(2017\): 354\-359\.](https://discovery.ucl.ac.uk/id/eprint/10045895/1/agz_unformatted_nature.pdf)
+4. MnasNet: [Tan, Mingxing, et al\. "Mnasnet: Platform\-aware neural architecture search for mobile\." CVPR\. 2019\.](https://openaccess.thecvf.com/content_CVPR_2019/papers/Tan_MnasNet_Platform-Aware_Neural_Architecture_Search_for_Mobile_CVPR_2019_paper.pdf)
+5. [Schulman, John, et al\. "Proximal policy optimization algorithms\." arXiv preprint arXiv:1707\.06347 \(2017\)\.](https://arxiv.org/pdf/1707.06347)
