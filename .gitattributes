@@ -1,0 +1,3 @@
+ *.docx diff=pandoc
+ *.pptx diff=pptx
+ 
